@@ -2,68 +2,11 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Css link -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="images/fav.jpeg" type="image/png">
-
-    <!-- Font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"/>
-
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
-
-
-
-    <title>Tanmay Khandelwal | Full Stack Web Developer |</title>
+    {{>links}}
   </head>
   <body>
       <!-- Navbar Start -->
-      <div class="container-fluid nav_style">
-        <div class="row">
-            <div class="col-md-10 col-12 mx-auto">
-              <nav class="navbar navbar-expand-lg">
-                  <a class="navbar-brand" href="#"><img src="images/logo5.png" alt=""></a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#skill">Skills</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#project">Project</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-
+      {{>navbar}}
     <!-- Navbar close -->
 
     <!-- Header open -->
@@ -72,7 +15,7 @@
         <div class="col-8 col-10 mx-auto">
           <div class="row">
             <div class="col-md-6 col-11 order-2 order-md-1">
-              <p class="header-txt">Hi Dear! :)
+              <p class="header-txt">Hello World! :)
               <br>
               <h3 class="header-txt2">I am Tanmay Khandelwal</h3>
               <div class="header-area">
@@ -290,35 +233,39 @@
                  <li class="btn btn-outline-info text" data-filter=".rea">React Application</li>
               </ul>
            </div><br>
-           <div class="portfolio-item row my-5">
+           <div class="portfolio-item row my-5" >
               <div class="item lan col-lg-3 col-md-4 col-6 col-sm"> 
-                 <img class="img-fluid" src="images/p5.png" alt="">;
+                 <img class="img-fluid" src="images/p5.png" alt="">
               </div>
               <div class="item web col-lg-3 col-md-4 col-6 col-sm"> 
-                <img class="img-fluid" src="images/p2.png" alt="">;
+                <img class="img-fluid" src="images/p2.png" alt="">
               </div>
               <div class="item lan col-lg-3 col-md-4 col-6 col-sm"> 
-                <img class="img-fluid" src="images/p3.png" alt="">;
+                <img class="img-fluid" src="images/p3.png" alt="">
               </div>
               <div class="item rea col-lg-3 col-md-4 col-6 col-sm"> 
-                <img class="img-fluid" src="images/p6.png" alt="">;
+                <img class="img-fluid" src="images/p6.png" alt="">
               </div>
               <div class="item web col-lg-3 col-md-4 col-6 col-sm"> 
-                <img class="img-fluid" src="images/p1.png" alt="">;
+                <img class="img-fluid" src="images/p1.png" alt="">
               </div>
               <div class="item rea col-lg-3 col-md-4 col-6 col-sm"> 
-                <img class="img-fluid" src="images/p7.png" alt="">;
+                <img class="img-fluid" src="images/p7.png" alt="">
               </div>
               <div class="item web col-lg-3 col-md-4 col-6 col-sm"> 
-                <img class="img-fluid" src="images/p9.png" alt="">;
+                <img class="img-fluid" src="images/p9.png" alt="">
               </div>
               <div class="item rea col-lg-3 col-md-4 col-6 col-sm"> 
-                <img class="img-fluid" src="images/p10.png" alt="">;
+                <img class="img-fluid" src="images/p10.png" alt="">
               </div>
           </div>
+          <div class="text-center">
+           <a href="https://github.com/iamtanmaykh2409"> <button  class="hire">More Projects</button></a>
+          </div> 
           
         </div>  
       </div>
+    </div>
     </div>
 
     <!-- Project End -->
@@ -327,7 +274,7 @@
     
     <!-- Hiring Start -->
 
-    <div class="container-fluid hireme">
+    <div class="container-fluid hireme bg-dark">
       <div class="row">
         <div class="col-md-10 col-11 mx-auto">
         <h1>I am available for Freelance projects</h1>
@@ -376,6 +323,15 @@
         </div>
       </div>
     </div>
+    </div>
+
+    <!-- Contact ends -->
+  
+    <!-- Footer start -->
+
+    {{>footer}}
+
+
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
  <script>
