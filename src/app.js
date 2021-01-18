@@ -4,7 +4,6 @@ require("./db/conn")
 const User = require("./models/data");
 const hbs =require('hbs')
 
-
 const app = express();
 const port =process.env.PORT || 8000;
 
